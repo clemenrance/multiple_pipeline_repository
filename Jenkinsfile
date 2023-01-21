@@ -2,7 +2,7 @@ node('built-in')
 {
     stage('Continuous Downlod_master') 
 	{
-    git 'https://github.com/sunildevops77/maven.git'
+    git 'https://github.com/clemenrance/multiple_pipeline_repository.git'
 	}
     stage('Continuous Build_master') 
 	{
